@@ -1,7 +1,5 @@
-# monopoly
+# Julius Richter's Monopoly
 
-A JavaScript/HTML/CSS Monopoly implementation with full game play. Supports two-eight players.
+A Monopoly reflecting the live of the German stage technician Julius Richter. This work is the result of the »(Re-)Collection Theatre History.« Seminar at the FU-Berlin.
 
-Play online at [http://www.intrepidcoder.com/projects/monopoly/](http://www.intrepidcoder.com/projects/monopoly/).
-
-Includes an experimental capability to play against an AI. A test AI for demonstration purposes is included.
+This project bases on Daniel Moyer's ([intrepidcoder](https://github.com/intrepidcoder)) [Monopoly implementation](https://github.com/intrepidcoder/monopoly).
