@@ -91,6 +91,22 @@ td {
 	background-color: white;
 }
 
+#additional_card {
+	position: absolute;
+	z-index: 10;
+	top: 250px;
+	left: 250px;
+	display: none;
+}
+
+#additional_person {
+	position: absolute;
+	z-index: 10;
+	top: 480px;
+	left: 380px;
+	display: none;
+}
+
 #quickstats {
 	font-size: 12px;
 	font-weight: bold;
@@ -745,10 +761,21 @@ td {
 
 .cell-name {
 	position: absolute;
+	bottom: 12px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	font-size: 8pt;
+}
+
+.cell-year {
+	position: absolute;
 	bottom: 0px;
 	left: 0px;
-	text-align: center;
 	width: 100%;
+	text-align: center;
+	font-size: 8pt;
+	color: #494949;
 }
 
 .cell-position-holder {

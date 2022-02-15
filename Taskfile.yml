@@ -1,0 +1,25 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Build the site
+    cmds:
+      - mkdocs build
+      - cp -r game site/
+
+  ftp_mirror:
+    desc: Mirror a local folder with an FTP connection
+    cmds:
+      - 'lftp {{.USER}}:{{.PWD}}@{{.HOST}} -e "set ftp:ssl-allow no; mirror --exclude .git -R {{.SOURCE}} {{.DESTINATION}}; bye"'
+
+  default:
+    desc: Publish the site
+    cmds:
+      - taks: build
+      - task: ftp_mirror
+        vars:
+          HOST: 185.178.193.141
+          USER: hostettler.cc
+          PWD: dzV5GEtsYCj9H9roAhFeH4q5hHRlPG
+          SOURCE: site
+          DESTINATION: richter.hostettler.cc

@@ -1,0 +1,20 @@
+site_name: Julius Richter
+markdown_extensions:
+  - def_list
+  - attr_list
+  - toc:
+      permalink: 2
+theme:
+  name: material
+  logo: assets/logo.svg
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Zum Darkmode wechseln
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Zum Lightmode wechseln

@@ -1,15 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Monopoly</title>
+	<title>Julius Richters</title>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="classicedition.js"></script>
+	<script type="text/javascript" src="juliusedition.js"></script>
 	<!-- Comment out the previous line and uncomment the next one to enable the New York City Edition -->
 	<!-- <script type="text/javascript" src="newyorkcityedition.js"></script> -->
 	<script type="text/javascript" src="ai.js"></script>
-	<script type="text/javascript" src="monopoly.js"></script>
+	<script type="text/javascript" src="game.js"></script>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
@@ -37,11 +37,11 @@
 	</div>
 
 	<p id="noscript">
-		Note: This page will not function without JavaScript.
+		Hinweis: Diese Seite benötigt JavaScript.
 	</p>
 
 	<div id="refresh">
-		Refresh this page to start a new game.
+		Lade die Seite neu, um ein neues Spiel zu starten.
 	</div>
 
 	<!-- <div id="enlarge"></div> -->
@@ -55,32 +55,32 @@
 			<table id="deed-table">
 				<tr>
 					<td colspan="2">
-						RENT&nbsp;$<span id="deed-baserent">12</span>.
+						RENT&nbsp;€<span id="deed-baserent">12</span>.
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: left;">With 1 House</td>
-					<td style="text-align: right;">$&nbsp;&nbsp;&nbsp;<span id="deed-rent1">60</span>.</td>
+					<td style="text-align: left;">Mit 1 Haus</td>
+					<td style="text-align: right;">€&nbsp;&nbsp;&nbsp;<span id="deed-rent1">60</span>.</td>
 				</tr>
 				<tr>
-					<td style="text-align: left;">With 2 Houses</td>
+					<td style="text-align: left;">Mit 2 Häuser</td>
 					<td style="text-align: right;"><span id="deed-rent2">180</span>.</td>
 				</tr>
 				<tr>
-					<td style="text-align: left;">With 3 Houses</td>
+					<td style="text-align: left;">Mit 3 Häuser</td>
 					<td style="text-align: right;"><span id="deed-rent3">500</span>.</td>
 				</tr>
 				<tr>
-					<td style="text-align: left;">With 4 Houses</td>
+					<td style="text-align: left;">Mit 4 Häuser</td>
 					<td style="text-align: right;"><span id="deed-rent4">700</span>.</td>
 				</tr>
 				<tr>
 					<td colspan="2">
-						<div style="margin-bottom: 8px;">With HOTEL $<span id="deed-rent5">900</span>.</div>
-						<div>Mortgage Value $<span id="deed-mortgage">80</span>.</div>
-						<div>Houses cost $<span id="deed-houseprice">100</span>. each</div>
-						<div>Hotels, $<span id="deed-hotelprice">100</span>. plus 4 houses</div>
-						<div style="font-size: 9px; font-style: italic; margin-top: 5px;">If a player owns ALL the Lots of any Color-Group, the rent is Doubled on Unimproved Lots in that group.</div>
+						<div style="margin-bottom: 8px;">Mit HOTEL €<span id="deed-rent5">900</span>.</div>
+						<div>Hypothek<span id="deed-mortgage">80</span></div>
+						<div>Kaufpreis pro Haus €<span id="deed-houseprice">100</span></div>
+						<div>Kaufpreis Hotel, €<span id="deed-hotelprice">100</span> und 4 Häuser</div>
+						<div style="font-size: 9px; font-style: italic; margin-top: 5px;">Wenn ein.e Spieler.in <i>alle<i> Grundstücke einer Farbengruppe besitzt, <i>verdoppelt</i> sich die Miete auf Grundstücken ohne Bebauung.</div>
 					</td>
 				</tr>
 			</table>
@@ -89,18 +89,18 @@
 		<div id="deed-mortgaged">
 			<div id="deed-mortgaged-name"></div>
 			<p>&bull;</p>
-			<div>MORTGAGED</div>
-			<div> for $<span id="deed-mortgaged-mortgage">80</span></div>
+			<div>VERPFÄNDET</div>
+			<div> für €<span id="deed-mortgaged-mortgage">80</span></div>
 			<p>&bull;</p>
-			<div style="font-style: italic; font-size: 13px; margin: 10px;">Card must be turned this side up if property is mortgaged</div>
+			<div style="font-style: italic; font-size: 13px; margin: 10px;">Die Karte muss diese Seite zeigen, wenn das Grundstück verliehen ist.</div>
 		</div>
 
 		<div id="deed-special">
 			<div id="deed-special-name"></div>
 			<div id="deed-special-text"></div>
 			<div id="deed-special-footer">
-				Mortgage Value
-				<span style="float: right;">$<span id="deed-special-mortgage">100</span>.</span>
+				Pfändungswert
+				<span style="float: right;">€<span id="deed-special-mortgage">100</span>.</span>
 			</div>
 		</div>
 	</div>
@@ -139,7 +139,7 @@
 			<td colspan="9" class="board-center"></td>
 			<td class="cell board-right" id="cell35"></td>
 		</tr><tr>
-			<td class="cell board-left" id="cell14"></td>
+			<td class="cell board-left" id="cell14"></td> <!-- here -->
 			<td colspan="9" class="board-center"></td>
 			<td class="cell board-right" id="cell36"></td>
 		</tr><tr>
@@ -177,63 +177,63 @@
 				<tr id="moneybarrow1" class="money-bar-row">
 					<td class="moneybararrowcell"><img src="images/arrow.png" id="p1arrow" class="money-bar-arrow" alt=">"/></td>
 					<td id="p1moneybar" class="moneybarcell">
-						<div><span id="p1moneyname" >Player 1</span>:</div>
-						<div>$<span id="p1money">1500</span></div>
+						<div><span id="p1moneyname" >Spieler.in 1</span>:</div>
+						<div>€<span id="p1money">1500</span></div>
 					</td>
 				</tr>
 				<tr id="moneybarrow2" class="money-bar-row">
 					<td class="moneybararrowcell"><img src="images/arrow.png" id="p2arrow" class="money-bar-arrow" alt=">" /></td>
 					<td id="p2moneybar" class="moneybarcell">
-						<div><span id="p2moneyname" >Player 2</span>:</div>
-						<div>$<span id="p2money">1500</span></div>
+						<div><span id="p2moneyname" >Spieler.in 2</span>:</div>
+						<div>€<span id="p2money">1500</span></div>
 					</td>
 				</tr>
 				<tr id="moneybarrow3" class="money-bar-row">
 					<td class="moneybararrowcell"><img src="images/arrow.png" id="p3arrow" class="money-bar-arrow" alt=">" /></td>
 					<td id="p3moneybar" class="moneybarcell">
-						<div><span id="p3moneyname" >Player 3</span>:</div>
-						<div>$<span id="p3money">1500</span></div>
+						<div><span id="p3moneyname" >Spieler.in 3</span>:</div>
+						<div>€<span id="p3money">1500</span></div>
 					</td>
 				</tr>
 				<tr id="moneybarrow4" class="money-bar-row">
 					<td class="moneybararrowcell"><img src="images/arrow.png" id="p4arrow" class="money-bar-arrow" alt=">" /></td>
 					<td id="p4moneybar" class="moneybarcell">
-						<div><span id="p4moneyname" >Player 4</span>:</div>
-						<div>$<span id="p4money">1500</span></div>
+						<div><span id="p4moneyname" >Spieler.in 4</span>:</div>
+						<div>€<span id="p4money">1500</span></div>
 					</td>
 				</tr>
 				<tr id="moneybarrow5" class="money-bar-row">
 					<td class="moneybararrowcell"><img src="images/arrow.png" id="p5arrow" class="money-bar-arrow" alt=">" /></td>
 					<td id="p5moneybar" class="moneybarcell">
-						<div><span id="p5moneyname" >Player 5</span>:</div>
-						<div>$<span id="p5money">1500</span></div>
+						<div><span id="p5moneyname" >Spieler.in 5</span>:</div>
+						<div>€<span id="p5money">1500</span></div>
 					</td>
 				</tr>
 				<tr id="moneybarrow6" class="money-bar-row">
 					<td class="moneybararrowcell"><img src="images/arrow.png" id="p6arrow" class="money-bar-arrow" alt=">" /></td>
 					<td id="p6moneybar" class="moneybarcell">
-						<div><span id="p6moneyname" >Player 6</span>:</div>
-						<div>$<span id="p6money">1500</span></div>
+						<div><span id="p6moneyname" >Spieler.in 6</span>:</div>
+						<div>€<span id="p6money">1500</span></div>
 					</td>
 				</tr>
 				<tr id="moneybarrow7" class="money-bar-row">
 					<td class="moneybararrowcell"><img src="images/arrow.png" id="p7arrow" class="money-bar-arrow" alt=">" /></td>
 					<td id="p7moneybar" class="moneybarcell">
-						<div><span id="p7moneyname" >Player 7</span>:</div>
-						<div>$<span id="p7money">1500</span></div>
+						<div><span id="p7moneyname" >Spieler.in 7</span>:</div>
+						<div>€<span id="p7money">1500</span></div>
 					</td>
 				</tr>
 				<tr id="moneybarrow8" class="money-bar-row">
 					<td class="moneybararrowcell"><img src="images/arrow.png" id="p8arrow" class="money-bar-arrow" alt=">" /></td>
 					<td id="p8moneybar" class="moneybarcell">
-						<div><span id="p8moneyname" >Player 8</span>:</div>
-						<div>$<span id="p8money">1500</span></div>
+						<div><span id="p8moneyname" >Spieler.in 8</span>:</div>
+						<div>€<span id="p8money">1500</span></div>
 					</td>
 				</tr>
 				<tr id="moneybarrowbutton">
 					<td class="moneybararrowcell">&nbsp;</td>
 					<td style="border: none;">
-						<input type="button" id="viewstats" value="View stats" title="View a pop-up window that shows a list of each player's properties." />
+						<input type="button" id="viewstats" value="Übersicht" title="Übersicht über den aktuellen Status." />
 					</td>
 				</tr>
 			</table>
@@ -242,8 +242,8 @@
 
 	<div id="setup">
 		<div style="margin-bottom: 20px;">
-			Select number of players.
-			<select id="playernumber" title="Select the number of players for the game.">
+			Wie viele Spieler.innen willst du?
+			<select id="playernumber" title="Wähle die Nummer der Spieler.innen">
 				<option>2</option>
 				<option>3</option>
 				<option selected="selected">4</option>
@@ -254,8 +254,12 @@
 			</select>
 		</div>
 
+		<div style="margin-bottom: 20px;">
+			<p>Wenn du alleine spielst, kannst du auch gegen den Computer spielen.</p>
+		</div>
+
 		<div id="player1input" class="player-input">
-			Player 1: <input type="text" id="player1name" title="Player name" maxlength="16" value="Player 1" />
+			Spieler.in 1: <input type="text" id="player1name" title="Player name" maxlength="16" value="Spieler.in 1" />
 			<select id="player1color" title="Player color">
 				<option style="color: aqua;">Aqua</option>
 				<option style="color: black;">Black</option>
@@ -275,13 +279,13 @@
 				<option selected="selected" style="color: yellow;">Yellow</option>
 			</select>
 			<select id="player1ai" title="Choose whether this player is controled by a human or by the computer." onclick="document.getElementById('player1name').disabled = this.value !== '0';">
-				<option value="0" selected="selected">Human</option>
-				<option value="1">AI (Test)</option>
+				<option value="0" selected="selected">Mensch</option>
+				<option value="1">AI</option>
 			</select>
 		</div>
 
 		<div id="player2input" class="player-input">
-			Player 2: <input type="text" id="player2name" title="Player name" maxlength="16" value="Player 2" />
+			Spieler.in 2: <input type="text" id="player2name" title="Player name" maxlength="16" value="Spieler.in 2" />
 			<select id="player2color" title="Player color">
 				<option style="color: aqua;">Aqua</option>
 				<option style="color: black;">Black</option>
@@ -301,13 +305,13 @@
 				<option style="color: yellow;">Yellow</option>
 			</select>
 			<select id="player2ai" title="Choose whether this player is controled by a human or by the computer." onclick="document.getElementById('player2name').disabled = this.value !== '0';">
-				<option value="0" selected="selected">Human</option>
-				<option value="1">AI (Test)</option>
+				<option value="0" selected="selected">Mensch</option>
+				<option value="1">AI</option>
 			</select>
 		</div>
 
 		<div id="player3input" class="player-input">
-			Player 3: <input type="text" id="player3name" title="Player name" maxlength="16" value="Player 3" />
+			Spieler.in 3: <input type="text" id="player3name" title="Player name" maxlength="16" value="Spieler.in 3" />
 			<select id="player3color" title="Player color">
 				<option style="color: aqua;">Aqua</option>
 				<option style="color: black;">Black</option>
@@ -327,13 +331,13 @@
 				<option style="color: yellow;">Yellow</option>
 			</select>
 			<select id="player3ai" title="Choose whether this player is controled by a human or by the computer." onclick="document.getElementById('player3name').disabled = this.value !== '0';">
-				<option value="0" selected="selected">Human</option>
-				<option value="1">AI (Test)</option>
+				<option value="0" selected="selected">Mensch</option>
+				<option value="1">AI</option>
 			</select>
 		</div>
 
 		<div id="player4input" class="player-input">
-			Player 4: <input type="text" id="player4name" title="Player name" maxlength="16" value="Player 4" />
+			Spieler.in 4: <input type="text" id="player4name" title="Player name" maxlength="16" value="Spieler.in 4" />
 			<select id="player4color" title="Player color">
 				<option style="color: aqua;">Aqua</option>
 				<option style="color: black;">Black</option>
@@ -353,13 +357,13 @@
 				<option style="color: yellow;">Yellow</option>
 			</select>
 			<select id="player4ai" title="Choose whether this player is controled by a human or by the computer." onclick="document.getElementById('player4name').disabled = this.value !== '0';">
-				<option value="0" selected="selected">Human</option>
-				<option value="1">AI (Test)</option>
+				<option value="0" selected="selected">Mensch</option>
+				<option value="1">AI</option>
 			</select>
 		</div>
 
 		<div id="player5input" class="player-input">
-			Player 5: <input type="text" id="player5name" title="Player name" maxlength="16" value="Player 5" />
+			Spiler.in 5: <input type="text" id="player5name" title="Player name" maxlength="16" value="Spieler.in 5" />
 			<select id="player5color" title="Player color">
 				<option style="color: aqua;">Aqua</option>
 				<option style="color: black;">Black</option>
@@ -379,13 +383,13 @@
 				<option style="color: yellow;">Yellow</option>
 			</select>
 			<select id="player5ai" title="Choose whether this player is controled by a human or by the computer." onclick="document.getElementById('player5name').disabled = this.value !== '0';">
-				<option value="0" selected="selected">Human</option>
-				<option value="1">AI (Test)</option>
+				<option value="0" selected="selected">Mensch</option>
+				<option value="1">AI</option>
 			</select>
 		</div>
 
 		<div id="player6input" class="player-input">
-			Player 6: <input type="text" id="player6name" title="Player name" maxlength="16" value="Player 6" />
+			Spieler.in 6: <input type="text" id="player6name" title="Player name" maxlength="16" value="Spieler.in 6" />
 			<select id="player6color" title="Player color">
 				<option selected="selected" style="color: aqua;">Aqua</option>
 				<option style="color: black;">Black</option>
@@ -405,13 +409,13 @@
 				<option style="color: yellow;">Yellow</option>
 			</select>
 			<select id="player6ai" title="Choose whether this player is controled by a human or by the computer." onclick="document.getElementById('player6name').disabled = this.value !== '0';">
-				<option value="0" selected="selected">Human</option>
-				<option value="1">AI (Test)</option>
+				<option value="0" selected="selected">Mensch</option>
+				<option value="1">AI</option>
 			</select>
 		</div>
 
 		<div id="player7input" class="player-input">
-			Player 7: <input type="text" id="player7name" title="Player name" maxlength="16" value="Player 7" />
+			Spieler.in 7: <input type="text" id="player7name" title="Player name" maxlength="16" value="Spieler.in 7" />
 			<select id="player7color" title="Player color">
 				<option style="color: aqua;">Aqua</option>
 				<option style="color: black;">Black</option>
@@ -431,13 +435,13 @@
 				<option style="color: yellow;">Yellow</option>
 			</select>
 			<select id="player7ai" title="Choose whether this player is controled by a human or by the computer." onclick="document.getElementById('player7name').disabled = this.value !== '0';">
-				<option value="0" selected="selected">Human</option>
-				<option value="1">AI (Test)</option>
+				<option value="0" selected="selected">Mensch</option>
+				<option value="1">AI</option>
 			</select>
 		</div>
 
 		<div id="player8input" class="player-input">
-			Player 8: <input type="text" id="player8name" title="Player name" maxlength="16" value="Player 8" />
+			Spieler.in 8: <input type="text" id="player8name" title="Player name" maxlength="16" value="Spieler.in 8" />
 			<select id="player8color" title="Player color">
 				<option style="color: aqua;">Aqua</option>
 				<option style="color: black;">Black</option>
@@ -457,16 +461,16 @@
 				<option style="color: yellow;">Yellow</option>
 			</select>
 			<select id="player8ai" title="Choose whether this player is controled by a human or by the computer." onclick="document.getElementById('player8name').disabled = this.value !== '0';">
-				<option value="0" selected="selected">Human</option>
-				<option value="1">AI (Test)</option>
+				<option value="0" selected="selected">Mensch</option>
+				<option value="1">AI</option>
 			</select>
 		</div>
 
 		<div style="margin: 20px 0px;">
-			<input type="button" value="Start Game" onclick="setup();" title="Begin playing." />
+			<input type="button" value="Spiel Starten" onclick="setup();" title="Starte das Spiel" />
 		</div>
 
-		<div id="noF5">Note: Refreshing this page or navigating away from it may end your game without warning.</div>
+		<div id="noF5">Achtung: Das Neuladen der Seite beendet das Spiel ohne weitere Nachfrage.</div>
 	</div>
 
 	<div id="control">
@@ -478,15 +482,15 @@
 							<tr>
 								<td class="menu-item" id="buy-menu-item">
 
-									<a href="javascript:void(0);" title="View alerts and buy the property you landed on.">Buy</a>
+									<a href="javascript:void(0);" title="View alerts and buy the property you landed on.">Kaufen</a>
 								</td>
 								<td class="menu-item" id="manage-menu-item">
 
-									<a href="javascript:void(0);" title="View, mortgage, and improve your property. ">Manage</a>
+									<a href="javascript:void(0);" title="View, mortgage, and improve your property. ">Verwalten</a>
 								</td>
 								<td class="menu-item" id="trade-menu-item">
 
-									<a href="javascript:void(0);" title="Exchange property with other players.">Trade</a>
+									<a href="javascript:void(0);" title="Exchange property with other players.">Handeln</a>
 								</td>
 							</tr>
 						</table>
@@ -509,14 +513,13 @@
 				</td>
 				<td style="vertical-align: top; border: none;">
 					<div id="quickstats" style="">
-							<div><span id="pname" >Player 1</span>:</div>
-							<div><span id="pmoney">$1500</span></div>
+							<div><span id="pname" >Spieler.in 1</span>:</div>
+							<div><span id="pmoney">€1500</span></div>
 					</div>
 					<div>
 						<div id="die0" title="Die" class="die die-no-img"></div>
 						<div id="die1" title="Die" class="die die-no-img"></div>
 					</div>
-
 				</td>
 			</tr><tr>
 				<td colspan="2" style="border: none">
@@ -527,6 +530,14 @@
 				</td>
 			</tr>
 		</table>
+	</div>
+
+	<div id="additional_card">
+		<img src="images/card.png" style="width:300px"/>
+	</div>
+
+	<div id="additional_person">
+		<img src="images/richter.jpg" style="width:180px"/>
 	</div>
 
 	<div id="trade">
@@ -541,10 +552,10 @@
 			</tr>
 			<tr>
 				<td class="trade-cell">
-					$&nbsp;<input id="trade-leftp-money" value="0" title="Enter amount to exchange with the other player." />
+					€&nbsp;<input id="trade-leftp-money" value="0" title="Enter amount to exchange with the other player." />
 				</td>
 				<td class="trade-cell">
-					$&nbsp;<input id="trade-rightp-money" value="0" title="Enter amount to exchange with the other player." />
+					€&nbsp;<input id="trade-rightp-money" value="0" title="Enter amount to exchange with the other player." />
 				</td>
 			</tr>
 			<tr>
