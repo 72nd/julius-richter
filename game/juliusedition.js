@@ -65,7 +65,7 @@ function luxurytax() {
 }
 
 function citytax() {
-	addAlert(player[turn].name + " zahlte €200 Einkommenssteuer.");
+	addAlert(player[turn].name + " zahlte €200 Einkommens—steuer.");
 	player[turn].pay(200, 0);
 
 	$("#landed").show().text("Du bist auf dem Einkommenssteuerfeld gelandet. Zahle €200.");
@@ -74,45 +74,236 @@ function citytax() {
 var square = [];
 
 square[0] = new Square("LOS", "DU BEKOMMST 200€", "#FFFFFF");
-square[1] = new Square("Dessau", "€60", "#8B4513", 60, 3, 2, 10, 30, 90, 160, 250, "Geburt 8. April 1883", 1883, "https://alex-berlin.de");
-square[2] = new Square("Gemeinsch-\naftsfeld", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
-square[3] = new Square("Baltic Avenue", "€60", "#8B4513", 60, 3, 4, 20, 60, 180, 320, 450);
+square[1] = new Square(
+	"Kleutsch",
+	"€60",
+	"#8B4513",
+	60, 3, 2, 10, 30, 90, 160, 250,
+	"Geburt 8. April 1883",
+	1883,
+	"http://localhost:8000/stationen/#8-april-1883"
+);
+square[2] = new Square("Gemeinschafts-\nfeld", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
+square[3] = new Square(
+	"Dessau",
+	"€60",
+	"#8B4513",
+	60, 3, 4, 20, 60, 180, 320, 450,
+	"Ausbildung zum Dekorationsmaler an der Kunstgewerbeschule Dessau.",
+	"1901 bis 1903",
+	"http://localhost:8000/stationen/#1901-1903-ausbildung-zum-dekorationsmaler-kunstgewerbeschule-dessau"
+);
 square[4] = new Square("Einkommens-\nsteuer", "Zahle €200", "#FFFFFF");
-square[5] = new Square("Reading Railroad", "€200", "#FFFFFF", 200, 1);
-square[6] = new Square("Oriental Avenue", "€100", "#87CEEB", 100, 4, 6, 30, 90, 270, 400, 550);
+square[5] = new Square("Vereinigte Privatbahnen", "€200", "#FFFFFF", 200, 1);
+square[6] = new Square(
+	"Bleicherode",
+	"€100",
+	"#87CEEB",
+	100, 4, 6, 30, 90, 270, 400, 550,
+	"Bleicherode, Schmalkalden, Sömmerda",
+	"1903",
+	"http://localhost:8000/stationen/#1903-bleicherode-schmalkalden-sommerda",
+);
 square[7] = new Square("Ereignisfeld", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
-square[8] = new Square("Vermont Avenue", "€100", "#87CEEB", 100, 4, 6, 30, 90, 270, 400, 550);
-square[9] = new Square("Connecticut Avenue", "€120", "#87CEEB", 120, 4, 8, 40, 100, 300, 450, 600);
+square[8] = new Square(
+	"Tivoli Theater",
+	"€100",
+	"#87CEEB",
+	100, 4, 6, 30, 90, 270, 400, 550,
+	"Dessau, Direktor Otto Sturm",
+	"1904 bis 1906",
+	"http://localhost:8000/stationen/#1904-1906-tivoli-theater-dessau",
+);
+square[9] = new Square(
+	"Spremberg",
+	"€120",
+	"#87CEEB",
+	120, 4, 8, 40, 100, 300, 450, 600,
+	"Direktion Ernst Jmmisch",
+	"1904 bis 1905",
+	"http://localhost:8000/stationen/#1904-1905-forst-spremberg-landsberg",
+);
 square[10] = new Square("Nur zu Besuch", "", "#FFFFFF");
-square[11] = new Square("St. Charles Place", "€140", "#FF0080", 140, 5, 10, 50, 150, 450, 625, 750);
-square[12] = new Square("Electric Company", "€150", "#FFFFFF", 150, 2);
-square[13] = new Square("States Avenue", "€140", "#FF0080", 140, 5, 10, 50, 150, 450, 625, 750);
-square[14] = new Square("Virginia Avenue", "€160", "#FF0080", 160, 5, 12, 60, 180, 500, 700, 900);
-square[15] = new Square("Pennsylvania Railroad", "€200", "#FFFFFF", 200, 1);
-square[16] = new Square("St. James Place", "€180", "#FFA500", 180, 6, 14, 70, 200, 550, 750, 950);
+square[11] = new Square(
+	"Sommertheater Küstrin",
+	"€140",
+	"#FF0080",
+	140, 5, 10, 50, 150, 450, 625, 750,
+	"Direktion Ernst Assmy",
+	"1905",
+	"http://localhost:8000/stationen/#1905-sommertheater-kustrin"
+);
+square[12] = new Square("Elektrizitätswerk", "€150", "#FFFFFF", 150, 2);
+square[13] = new Square(
+	"Residenztheater Hanover",
+	"€140",
+	"#FF0080",
+	140, 5, 10, 50, 150, 450, 625, 750,
+	"Direktor Julius Rudolph",
+	"1906 bis 1910",
+	"http://localhost:8000/stationen/#1906-1910-residenztheater-hannover"
+);
+square[14] = new Square(
+	"Deutsches Theater Hannover",
+	"€160",
+	"#FF0080",
+	160, 5, 12, 60, 180, 500, 700, 900,
+	"Direktor Dr. George Altman",
+	"1910 bis 1913",
+	"http://localhost:8000/stationen/#1910-1913-deutsches-theater-hannover"
+);
+square[15] = new Square(
+	"Vereinigte Bergbahnen",
+	"€200",
+	"#FFFFFF",
+	200, 1,
+);
+square[16] = new Square(
+	"Filmfabrik Afgha",
+	"€180",
+	"#FFA500",
+	180, 6, 14, 70, 200, 550, 750, 950,
+	"",
+	"",
+	"http://localhost:8000/stationen/#kurze-tatigkeit-bei-der-filmfabrik-afgha"
+);
 square[17] = new Square("Gemeinschaftsfeld", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
-square[18] = new Square("Tennessee Avenue", "€180", "#FFA500", 180, 6, 14, 70, 200, 550, 750, 950);
-square[19] = new Square("New York Avenue", "€200", "#FFA500", 200, 6, 16, 80, 220, 600, 800, 1000);
+square[18] = new Square(
+	"Stadttheater Stettin",
+	"€180",
+	"#FFA500",
+	180, 6, 14, 70, 200, 550, 750, 950,
+	"Intendant Arthur Jlling",
+	"1914",
+	"http://localhost:8000/stationen/#1914-stadttheater-stettin"
+);
+square[19] = new Square(
+	"Kleines Theater Berlin",
+	"€200",
+	"#FFA500",
+	200, 6, 16, 80, 220, 600, 800, 1000,
+	"Direktor Dr. George Altman",
+	"1915 bis 1916",
+	"http://localhost:8000/stationen/#1914-stadttheater-stettin"
+);
 square[20] = new Square("Free Parking", "", "#FFFFFF");
-square[21] = new Square("Kentucky Avenue", "€220", "#FF0000", 220, 7, 18, 90, 250, 700, 875, 1050);
+square[21] = new Square(
+	"Frankreich",
+	"€220",
+	"#FF0000",
+	220, 7, 18, 90, 250, 700, 875, 1050,
+	"Kriegseinsatz",
+	"1917",
+	"http://localhost:8000/stationen/#1917-kriegseinsatz-in-frankreich"
+);
 square[22] = new Square("Ereignisfeld", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
-square[23] = new Square("Indiana Avenue", "€220", "#FF0000", 220, 7, 18, 90, 250, 700, 875, 1050);
-square[24] = new Square("Illinois Avenue", "€240", "#FF0000", 240, 7, 20, 100, 300, 750, 925, 1100);
-square[25] = new Square("B&O Railroad", "€200", "#FFFFFF", 200, 1);
-square[26] = new Square("Atlantic Avenue", "€260", "#FFFF00", 260, 8, 22, 110, 330, 800, 975, 1150);
-square[27] = new Square("Ventnor Avenue", "€260", "#FFFF00", 260, 8, 22, 110, 330, 800, 975, 1150);
-square[28] = new Square("Water Works", "€150", "#FFFFFF", 150, 2);
-square[29] = new Square("Marvin Gardens", "€280", "#FFFF00", 280, 8, 24, 120, 360, 850, 1025, 1200);
+square[23] = new Square(
+	"Handforth Camp ⭐",
+	"€220",
+	"#FF0000",
+	220, 7, 18, 90, 250, 700, 875, 1050,
+	"Technische Leitung des Kriegsgefangenen-Theaters in England",
+	"1917 bis 1919",
+	"http://localhost:8000/stationen/#1917-1919-handforth-camp-theatre"
+);
+square[24] = new Square(
+	"Kleines Theater Berlin",
+	"€240",
+	"#FF0000",
+	240, 7, 20, 100, 300, 750, 925, 1100,
+	"Direktor Dr. George Altman",
+	"1920 bis 1921",
+	"http://localhost:8000/stationen/#1920-1921-kleines-theater-berlin"
+);
+square[25] = new Square("Überland-\nbahnen", "€200", "#FFFFFF", 200, 1);
+square[26] = new Square(
+	"Rotter-Bühnen Berlin",
+	"€260",
+	"#FFFF00",
+	260, 8, 22, 110, 330, 800, 975, 1150,
+	"Metropoltheater, Residenztheater, Trianontheater, Kleines Theater und Lessingtheater.",
+	"1921 bis 1925",
+	"http://localhost:8000/stationen/#1921-1925-rotter-buhnen-berlin"
+);
+square[27] = new Square(
+	"Barnowsky-Bühnen Berlin",
+	"€260",
+	"#FFFF00",
+	260, 8, 22, 110, 330, 800, 975, 1150,
+	"Komödienhaus, Theater in der Saarlandstraße unter der Direktion Barnowsky",
+	"1926 bis 1927",
+	"http://localhost:8000/stationen/#1926-1927-barnowsky-buhnen-berlin",
+);
+square[28] = new Square(
+	"Wasserwerk",
+	"€150",
+	"#FFFFFF",
+	150, 2,
+);
+square[29] = new Square(
+	"Piscatorbühnen ⭐",
+	"€280",
+	"#FFFF00",
+	280, 8, 24, 120, 360, 850, 1025, 1200,
+	"Theater am Nollendorffplatz und Lessing-Theater, Berlin unter der Direktion Erwin Piskator",
+	"1927 bis 1928",
+	"http://localhost:8000/stationen/#1927-1928-piscatorbuhnen"
+);
 square[30] = new Square("Gehe ins Gefängnis", "Gehe direkt ins Gefängnis. Du gehtst dabei nicht über LOS und bekommst auch kein Geld.", "#FFFFFF");
-square[31] = new Square("Pacific Avenue", "€300", "#008000", 300, 9, 26, 130, 390, 900, 1100, 1275);
-square[32] = new Square("North Carolina Avenue", "€300", "#008000", 300, 9, 26, 130, 390, 900, 1100, 1275);
-square[33] = new Square("Community Chest", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
-square[34] = new Square("Pennsylvania Avenue", "€320", "#008000", 320, 9, 28, 150, 450, 1000, 1200, 1400);
-square[35] = new Square("Short Line", "€200", "#FFFFFF", 200, 1);
+square[31] = new Square(
+	"Hessisches Landestheater Darmstadt ⭐",
+	"€300",
+	"#008000",
+	300, 9, 26, 130, 390, 900, 1100, 1275,
+	"Unter der Intendanz Prof. Carl Ebert (1929 bis 1931), Hartung (1931 bis 1933) und Franz Ehwert (1933 bis 1936)",
+	"1929 bis 1936",
+	"http://localhost:8000/stationen/#1929-1936-hessisches-landestheater-darmstadt",
+);
+square[32] = new Square(
+	"Städtische Bühnen Düsseldorf",
+	"€300",
+	"#008000",
+	300, 9, 26, 130, 390, 900, 1100, 1275,
+	"Unter der Intendanz Bruno Jltz (1936 bis 1937) und Otto Krauss (1937 bis 1939)",
+	"1936 bis 1939",
+	"http://localhost:8000/stationen/#1939-1944-theater-des-volkes"
+);
+square[33] = new Square("Gemeinschaftsfeld", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
+square[34] = new Square(
+	"Theater des Volkes ⭐",
+	"€320",
+	"#008000",
+	320, 9, 28, 150, 450, 1000, 1200, 1400,
+	"Unter der Intendanz von Rudolf Zindler",
+	"1939 bis 1944",
+	"http://localhost:8000/stationen/#1939-1944-theater-des-volkes"
+);
+square[35] = new Square(
+	"Anhalter Bahnhof",
+	"€200",
+	"#FFFFFF",
+	200, 1,
+);
 square[36] = new Square("Ereignisfeld", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
-square[37] = new Square("Park Place", "€350", "#0000FF", 350, 10, 35, 175, 500, 1100, 1300, 1500);
+square[37] = new Square(
+	"Schlosspark-Theater Berlin ⭐",
+	"€350",
+	"#0000FF",
+	350, 10, 35, 175, 500, 1100, 1300, 1500,
+	"Intendant Boleslaw Barlog",
+	"1945 bis 1959",
+	"http://localhost:8000/stationen/#1945-1959-schlosspark-theater-berlin"
+);
 square[38] = new Square("Zusatzsteuer", "Zahle €100", "#FFFFFF");
-square[39] = new Square("Boardwalk", "€400", "#0000FF", 400, 10, 50, 200, 600, 1400, 1700, 2000);
+square[39] = new Square(
+	"Berlin",
+	"€400",
+	"#0000FF",
+	400, 10, 50, 200, 600, 1400, 1700, 2000,
+	"Julius Richter stirbt 4. Juni 1965 in Berlin.",
+	"1965",
+	"http://localhost:8000/stationen/#4-juni-1965"
+);
 
 var communityChestCards = [];
 var chanceCards = [];

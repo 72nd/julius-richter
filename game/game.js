@@ -708,7 +708,7 @@ function Game() {
 	this.trade = function(tradeObj) {
 		$("#board").hide();
 		$("#control").hide();
-		$("#additional_card").hide();
+		$("#background_image").hide();
 		$("#additional_person").hide();
 		$("#trade").show();
 		$("#proposetradebutton").show();
@@ -734,7 +734,7 @@ function Game() {
 	this.cancelTrade = function() {
 		$("#board").show();
 		$("#control").show();
-		$("#additional_card").show();
+		$("#background_image").show();
 		$("#additional_person").show();
 		$("#trade").hide();
 
@@ -858,7 +858,7 @@ function Game() {
 
 		$("#board").show();
 		$("#control").show();
-		$("#additional_card").show();
+		$("#background_image").show();
 		$("#additional_person").show();
 		$("#trade").hide();
 
@@ -985,7 +985,7 @@ function Game() {
 		if (pcount === 1) {
 			updateMoney();
 			$("#control").hide();
-			$("#additional_card").hide();
+			$("#background_image").hide();
 			$("#additional_person").hide();
 			$("#board").hide();
 			$("#refresh").show();
@@ -2561,7 +2561,7 @@ function play() {
 	p.pay(0, p.creditor);
 
 	$("#landed, #option, #manage").hide();
-	$("#board, #control, #additional_card, #additional_person, #moneybar, #viewstats, #buy").show();
+	$("#board, #control, #background_image, #additional_person, #moneybar, #viewstats, #buy").show();
 
 	doublecount = 0;
 	if (p.human) {

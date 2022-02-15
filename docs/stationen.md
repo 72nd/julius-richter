@@ -1,34 +1,48 @@
 # Zu den einzelnen Stationen
 
-## 8. April 1883: geb. bei Dessau (MP)
+## 8. April 1883
+
+Julius Richter kommt am 8. April 1883 in Kleutsch (Landkreis Dessau/ANhalt) auf die Welt.
 
 
-## 1901-1903: Ausbildung zum Dekorationsmaler, Kunstgewerbeschule Dessau (MP)
+## 1901-1903: Ausbildung zum Dekorationsmaler, Kunstgewerbeschule Dessau
+
+Ausbildung und anschließende Wanderjahre (1903 bis 1906).
 
 
-## 1903: Bleicherode, Schmalkalden, Sömmerda (Dir. Nitsche)
+## 1903: Bleicherode, Schmalkalden, Sömmerda
+
+Direktor Oskar Nitsche
+
 
 ### Inszenierungen
 
 - 1903, Bleicherode, 21.10., Hersch: „Die Anneliese von Dessau“, Bühnentechnik
 
 
-## 1904: Tivoli Theater, Dessau (Dir. Sturm) (MP)
+## 1904-1906: Tivoli Theater, Dessau
+
+Direktor Otto Sturm.
 
 
-## 1904-1905: Forst, Spremberg, Landsberg (Dir. Immisch) (MP)
+## 1904-1905: Forst, Spremberg, Landsberg
+
+Direktion Ernst Jmmisch.
 
 
-## 1905: Küstrin, Sommertheater (Dir. Assmy)
+## 1905: Sommertheater Küstrin
+
+Direktion Ernst Assmy. 
 
 
-## 1905-1906: Tivoli Theater, Dessau (Dir. Sturm) (MP)
+## 1906-1910: Residenztheater Hannover
+
+Direktor Julius Rudolph.
 
 
-## 1906-1910: Residenztheater, Hannover (Dir. Rudolph) (MP)
+## 1910-1913: Deutsches Theater Hannover
 
-
-## 1910-1913: Deutsches Theater, Hannover (Dir. Altman) (MP)
+Direktor Dr. George Altman.
 
 ### Inszenierung
 
@@ -48,13 +62,18 @@
 Ab 1913: Technischer Bühnenvorstand
 
 
-## Kurze Tätigkeit bei der Filmfabrik Afgha (MP)
+## Kurze Tätigkeit bei der Filmfabrik Afgha
 
 
-## 1914: Stadttheater, Stettin (Dir. Illing)
+## 1914: Stadttheater Stettin
+
+Intendant Arthur Jlling.
 
 
-## 1915-1916: Kleines Theater, Berlin (Dir. Altman) (MP)
+## 1915-1916: Kleines Theater Berlin
+
+Direktor Dr. George Altman.
+
 
 ### Inszenierungen
 
@@ -65,10 +84,12 @@ Ab 1913: Technischer Bühnenvorstand
 - 1916, Berlin, Kleines Theater, 23.02., Eulenberg: „Münchhausen“, Technische Leitung
 
 
-## 1917: Kriegseinsatz in Frankreich (MP)
+## 1917: Kriegseinsatz in Frankreich
 
 
-## 1917-1919: Handforth Camp Theatre, Technische Leitung des Kriegsgefangenen-Theaters in England (MP)
+## 1917-1919: Handforth Camp Theatre
+
+Technische Leitung des Kriegsgefangenen-Theaters in England.
 
 ### Inszenierungen
 
@@ -90,13 +111,14 @@ Ab 1913: Technischer Bühnenvorstand
 → Carl Niessen, geplante Ausstellung im Theatermuseum Köln (MP)
 
 
-## 1920-1921: Kleines Theater, Berlin (Dir. Altman) (MP)
+## 1920-1921: Kleines Theater Berlin
+
+Direktor Dr. George Altman.
 
 
-## 1921-1925: Rotter-Bühnen, Berlin: Metropol-Theater, Residenztheater, (MP)
+## 1921-1925: Rotter-Bühnen Berlin
 
-
-## Kleines Theater, Lessing- Theater (Dir. Alfred und Fritz Rotter) (MP)
+Metropoltheater, Residenztheater, Trianontheater, Kleines Theater und Lessingtheater. Unter der Direktion von Alfred und Fritz Rotter.
 
 ### Inszenierungen
 
@@ -106,17 +128,23 @@ Ab 1913: Technischer Bühnenvorstand
 - 1925, Berlin, Lessing-Theater, 21.12., Strindberg: „Karl XII.“, Technische Leitung
 
 
-## 1925-1926: Hellmer-Bühnen, Berlin: Lessing-Theater (Dir. Hellmer) (MP)
+## 1925-1926: Hellmer-Bühnen, Berlin: Lessing-Theater
+
+Direktion Hellmer.
 
 
-## 1926-1927: Barnowsky-Bühnen, Berlin: Komödienhaus, Theater in der Saarlandstraße (Dir. Barnowsky) (MP)
+## 1926-1927: Barnowsky-Bühnen Berlin
+
+Komödienhaus, Theater in der Saarlandstraße unter der Direktion Barnowsky.
 
 - Barnowsky hat Piscator als Regisseur engagiert.
 - Das Theater in der Saarlandstraße ist das heutige Hebbel-Theater
 - [Wikipedia: Hebbel-Theater](https://de.wikipedia.org/wiki/Hebbel-Theater)
 
 
-## 1927-1928: Piscatorbühne, Theater am Nollendorffplatz und Lessing-Theater, Berlin (Dir. Piscator) (MP)
+## 1927-1928: Piscatorbühnen
+
+Theater am Nollendorffplatz und Lessing-Theater, Berlin unter der Direktion Erwin Piskator.
 
 ### Inszenierungen
 
@@ -162,9 +190,9 @@ Ab 1913: Technischer Bühnenvorstand
 - [https://www.berlin.de/ba-charlottenburg-wilmersdorf/ueber-den-bezirk/kultur-und-wissenschaft/buehnen/artikel.180238.php](https://www.berlin.de/ba-charlottenburg-wilmersdorf/ueber-den-bezirk/kultur-und-wissenschaft/buehnen/artikel.180238.php)
 
 
-## 1929-1936: Hessisches Landestheater, Darmstadt (MP)
+## 1929-1936: Hessisches Landestheater Darmstadt
 
-Dir. Ebert, ab 1931: Dir. Hartung, ab 1933: Dir. Ehwert.
+Unter der Intendanz Prof. Carl Ebert (1929 bis 1931), Hartung (1931 bis 1933) und Franz Ehwert (1933 bis 1936).
 
 ### Inszenierungen
 
@@ -223,14 +251,16 @@ Personenumfeld Hessisches Landestheater:
 In einigen Quellen wird erwähnt, dass Franz Everth erst 1934 Intendant wird (Intendanz: 1934-1944 bzw. genauer: 1934/35 Oberspielleiter und stellvertretender Intendant, 1935-1944 Generalintendant)
 
 
-## 1936-1939: Städtische Bühnen, Düsseldorf (Dir. Iltz, ab 1937: Dir. Krauss)
+## 1936-1939: Städtische Bühnen Düsseldorf
 
-- 3.10.1937: Vortrag "Theaterbauten unserer Tage" von Julius Richter, Matinee an den Städtischen Bühnen Düsseldorf.
+Unter der Intendanz Bruno Jltz (1936 bis 1937) und Otto Krauss (1937 bis 1939).
+
+3.10.1937: Vortrag "Theaterbauten unserer Tage" von Julius Richter, Matinee an den Städtischen Bühnen Düsseldorf.
 
 
-## 1939-1944: Theater des Volkes, Berlin (Dir. Zindler) (MP)
+## 1939-1944: Theater des Volkes
 
-Früher Großes Schauspielhaus, wurde umbenannt zum Theater des Volkes. Nach zum 2. Weltkrieg wird aus dem Haus der Friedrichstadtpalast
+Unter der Intendanz von Rudolf Zindler. Früher Großes Schauspielhaus, wurde umbenannt zum Theater des Volkes. Nach zum 2. Weltkrieg wird aus dem Haus der Friedrichstadtpalast
 
 ### Inszenierungen
 
@@ -263,7 +293,9 @@ Früher Großes Schauspielhaus, wurde umbenannt zum Theater des Volkes. Nach zum
 ## 1944: Dienstverpflichtung bei Fa. Siemens
 
 
-## 1945-1959: Schlosspark-Theater, Berlin (Dir. Barlog) (MP)
+## 1945-1959: Schlosspark-Theater Berlin
+
+Intendant Boleslaw Barlog.
 
 ### Inszenierungen
 
@@ -280,9 +312,10 @@ Früher Großes Schauspielhaus, wurde umbenannt zum Theater des Volkes. Nach zum
 - 1951, Berlin, Schlosspark-Theater, 12.04., Fry: „Venus im Licht“, Technische Leitung
 - 1951, Berlin, Schlosspark-Theater, 17.09., Fry: „Schlaf der Gefangenen“, Technische Leitung
 
-## 1948: Entnazifizierung, seither Bühnenmeister im Schlosspark-Theater
 
-(zuvor ab 1945: Bühnenarbeiter/-techniker) (MP)
+## 1948: Entnazifizierung
+
+Seither Bühnenmeister im Schlosspark-Theater (zuvor ab 1945: Bühnenarbeiter/-techniker).
 
 ## 4. Juni 1965
 

@@ -91,6 +91,14 @@ td {
 	background-color: white;
 }
 
+#background_image {
+	position: absolute;
+	z-index: 7;
+	top: 137px;
+	left: 137px;
+	display: none;
+}
+
 #additional_card {
 	position: absolute;
 	z-index: 10;
@@ -101,7 +109,7 @@ td {
 
 #additional_person {
 	position: absolute;
-	z-index: 10;
+	z-index: 8;
 	top: 480px;
 	left: 380px;
 	display: none;

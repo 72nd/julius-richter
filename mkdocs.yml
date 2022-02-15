@@ -4,6 +4,12 @@ markdown_extensions:
   - attr_list
   - toc:
       permalink: 2
+nav:
+  - 'Julius Richter: Fiktive Buchrezension': index.md
+  - Zum Spiel: ./game/game.html
+  - Zu den einzelnen Stationen: stationen.md
+  - Bestandsbeschreibung: bestandsbeschreibung.md
+  - Weitere Links: links.md
 theme:
   name: material
   logo: assets/logo.svg
