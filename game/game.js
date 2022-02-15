@@ -2778,10 +2778,13 @@ window.onload = function() {
 
 	enlargeWrap.id = "enlarge-wrap";
 
+	// DA Enlarge values
+
 	var HTML = "";
 	for (var i = 0; i < 40; i++) {
 		HTML += "<div id='enlarge" + i + "' class='enlarge'>";
 		HTML += "<div id='enlarge" + i + "color' class='enlarge-color'></div><br /><div id='enlarge" + i + "name' class='enlarge-name'></div>";
+		HTML += "<br /><div id='enlarge" + i + "description' class='enlarge-description'></div>";
 		HTML += "<br /><div id='enlarge" + i + "price' class='enlarge-price'></div>";
 		HTML += "<br /><div id='enlarge" + i + "token' class='enlarge-token'></div></div>";
 	}
@@ -2825,8 +2828,10 @@ window.onload = function() {
 			currentCellOwner.className = "cell-owner";
 		}
 
+		// DA ENLARGE values
 		document.getElementById("enlarge" + i + "color").style.backgroundColor = s.color;
 		document.getElementById("enlarge" + i + "name").textContent = s.name;
+		document.getElementById("enlarge" + i + "description").textContent = s.description;
 		document.getElementById("enlarge" + i + "price").textContent = s.pricetext;
 	}
 

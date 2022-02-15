@@ -94,8 +94,8 @@ td {
 #additional_card {
 	position: absolute;
 	z-index: 10;
-	top: 250px;
-	left: 250px;
+	top: 140px;
+	left: 320px;
 	display: none;
 }
 
@@ -649,15 +649,20 @@ td {
 
 .enlarge-name {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 16px;
 	background-color: white;
-	height: 45px;
+	height: 26px;
 }
 
 .enlarge-price {
 	background-color: white;
 	vertical-align: bottom;
-	height: 25px;
+	height: 20px;
+}
+
+.enlarge-description {
+	background-color: white;
+	font-style: italic;
 }
 
 .enlarge-token {
