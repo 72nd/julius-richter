@@ -2,7 +2,7 @@
 
 ## 8. April 1883
 
-Julius Richter kommt am 8. April 1883 in Kleutsch (Landkreis Dessau/ANhalt) auf die Welt.
+Julius Richter kommt am 8. April 1883 in Kleutsch (Landkreis Dessau/Anhalt) auf die Welt.
 
 
 ## 1901-1903: Ausbildung zum Dekorationsmaler, Kunstgewerbeschule Dessau
@@ -62,7 +62,7 @@ Direktor Dr. George Altman.
 Ab 1913: Technischer Bühnenvorstand
 
 
-## Kurze Tätigkeit bei der Filmfabrik Afgha
+## Kurze Tätigkeit bei der Filmfabrik Agfa
 
 
 ## 1914: Stadttheater Stettin
@@ -89,7 +89,9 @@ Direktor Dr. George Altman.
 
 ## 1917-1919: Handforth Camp Theatre
 
-Technische Leitung des Kriegsgefangenen-Theaters in England.
+Während seiner Zeit im Kriegsgefangenen-Theaters in Handforth (England) war Richter nicht nur als technischer Leiter des Lagertheaters zuständig, sondern erstellte auch die ersten überlieferten Skizzen und Niederschriften über seine Idee des »Idealtheaters«. Über seine Zeit im Lager berichtet Richter auch [in seiner Biographie](assets/handforth/richter_handforth-camp-theatre.pdf)
+
+![](assets/handforth/idealprojekt-02.jpg){ align=right loading=lazy }
 
 ### Inszenierungen
 
@@ -97,7 +99,11 @@ Technische Leitung des Kriegsgefangenen-Theaters in England.
 - 1918, Handforth, Camp Theatre (Kriegsgefangenen-Theater), 30.06., Dreyer: „Die Siebzehnjährigen“, Technische Leitung
 - 1919, Handforth, Camp Theatre (Kriegsgefangenen-Theater), 22.10., Sudermann: „Stein unter Steinen“ (Derniere des Handforth Camp Theatre), Technische Leitung
 
+![](assets/handforth/idealprojekt-03.jpg){ align=left loading=lazy align=left width="47%" }![](assets/handforth/idealprojekt-04.jpg){ align=left loading=lazy align=right width="47%" }
+
 ### Materialien
+
+[Gesammelte Materialien von uns (Google Drive)](https://drive.google.com/drive/folders/1l4TqvroNs3DHFynM1G7gDEOqYCH0EjTm?usp=sharing)
 
 - [https://www.saechsische.de/plus/das-glueck-der-gefangenschaft-2945095.html](https://www.saechsische.de/plus/das-glueck-der-gefangenschaft-2945095.html)
 - [https://www.zvab.com/Bogenst%C3%A4tter-Welt-hinter-Stacheldraht-Chronik-englischen/17262730025/bd](https://www.zvab.com/Bogenst%C3%A4tter-Welt-hinter-Stacheldraht-Chronik-englischen/17262730025/bd)
@@ -154,6 +160,8 @@ Theater am Nollendorffplatz und Lessing-Theater, Berlin unter der Direktion Erwi
 - 1928, Berlin, Piscatorbühne, Theater am Nollendorffplatz, 10.04., Lania: „Konjunktur“, Technische Leitung
 
 ### Materialien
+
+[Gesammelte Materialien von uns (Google Drive).](https://drive.google.com/drive/folders/1czLMfOKWXfzw1QY1FpRSfyrk8U9Z0Vd2?usp=sharing)
 
 - [https://de.wikipedia.org/wiki/Piscator-Bühne](https://de.wikipedia.org/wiki/Piscator-B%C3%BChne)
 - [Portraitfoto Piscator von 1927](https://de.wikipedia.org/wiki/Erwin_Piscator#/media/Datei:Piscator-Portrait.jpg)

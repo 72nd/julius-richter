@@ -2816,6 +2816,7 @@ window.onload = function() {
 		currentCellPositionHolder.id = "cell" + i + "positionholder";
 		currentCellPositionHolder.className = "cell-position-holder";
 		currentCellPositionHolder.enlargeId = "enlarge" + i;
+		currentCellPositionHolder.url = s.url;
 
 		currentCellYear = currentCellAnchor.appendChild(document.createElement("div"));
 		currentCellYear.id = "cell" + i + "year";
@@ -2859,6 +2860,11 @@ window.onload = function() {
 
 	$(".cell-position-holder, #jail").on("mouseover", function(){
 		$("#" + this.enlargeId).show();
+
+	}).on(".cell-position-holder").on("click", function(){
+		if (this.url !== null && typeof this.url !== 'undefined') {
+			window.open(this.url);
+		}
 
 	}).on("mouseout", function() {
 		$("#" + this.enlargeId).hide();

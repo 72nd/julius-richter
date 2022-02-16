@@ -2,7 +2,35 @@
 
 ## 1. Schachtel
 
+### Werk (teils auch Lebensdokumente)
+
+- Ca. 360 seitiges Manuskript einer Autobiografie (unveröffentlicht; Arbeitsbiografie im Zeitraum 1903–1953)
+- Fotografische und schriftliche Dokumentation eigener Ausstellungsprojekte (z.B. zum 50jährigen Bühnenjubiläum in Steglitz)
+- Dekorations-Skizzen, technische Zeichnungen, Grundrisse, Bühnenbildentwürfe, Materiallisten, Produktionsfotos, Kritiken, Theaterzettel und Programmhefte zu Produktionen in …
+
+### Arbeitsmaterialien
+
+- Unveröffentlichte großformatige Zeichnungen, Entwürfe und Organisationspläne zu nicht realisierten Bühnenbildern und Theaterbauten (deutsche Kulturstätte, Idealprojekt, Raumspielfeld, Theater des Volkes)
+ 
+### Korrespondenz
+
+- Verkehr mit Zeitungsredaktionen und Arbeitspartnern
+- Korrespondenz zur Entnazifizierung
+- Gratulationspost zum 40 bzw. 50-jährigen Bühnenjubiläum
+
+### Lebensdokumente
+
+- ca. 360-seitiges Manuskript einer Autobiografie (unveröffentlicht; Arbeitsbiografie im Zeitraum 1903–1953)
+- einige offizielle Dokumente, z.B. Arbeitskarte vom Arbeitsamt Erkner
+
+### Sammlungen
+
+- Zeitungsartikel zur eigenen Person
+- Fotos von Kolleg*innen, der Theater, privat bzw. sich selbst (wenig)
+
 ## 2. Schachtel
+
+[Übersicht Inhalt Kiste II, mit Beispielfotos des Bestands.](https://demo.hedgedoc.org/s/hEHzQAomF#)
 
 _Werk._ Gruppiert sich in drei unterschiedliche Schwerpunkte der Arbeit von Julius Richter.
 
@@ -20,4 +48,4 @@ _Sammlung._ 1x Werbeprospekt Literatur Bühnentechnik, 3x künstlerische Fotogra
 
 _Sammlungen zum Archiv._ Diverse Kopien des Skripts Richters Autobiografie.
 
-_Sonstiges._ 1x Mappe mit Aufschrift »Hanover 1910/1911«, kein Inhalt.
+_Sonstiges._ 1x Mappe mit Aufschrift »Hanover 1910/1

@@ -2,6 +2,7 @@ site_name: Julius Richter
 markdown_extensions:
   - def_list
   - attr_list
+  - md_in_html
   - toc:
       permalink: 2
 nav:

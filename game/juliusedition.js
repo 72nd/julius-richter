@@ -159,13 +159,13 @@ square[15] = new Square(
 	200, 1,
 );
 square[16] = new Square(
-	"Filmfabrik Afgha",
+	"Filmfabrik Agfa",
 	"€180",
 	"#FFA500",
 	180, 6, 14, 70, 200, 550, 750, 950,
 	"",
 	"",
-	"http://localhost:8000/stationen/#kurze-tatigkeit-bei-der-filmfabrik-afgha"
+	"http://localhost:8000/stationen/#kurze-tatigkeit-bei-der-filmfabrik-agfa"
 );
 square[17] = new Square("Gemeinschaftsfeld", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
 square[18] = new Square(
@@ -266,7 +266,7 @@ square[32] = new Square(
 	300, 9, 26, 130, 390, 900, 1100, 1275,
 	"Unter der Intendanz Bruno Jltz (1936 bis 1937) und Otto Krauss (1937 bis 1939)",
 	"1936 bis 1939",
-	"http://localhost:8000/stationen/#1939-1944-theater-des-volkes"
+	"http://localhost:8000/stationen/#1936-1939-stadtische-buhnen-dusseldorf"
 );
 square[33] = new Square("Gemeinschaftsfeld", "FOLGE DEN ANWEISUNGEN DER KARTE", "#FFFFFF");
 square[34] = new Square(
