@@ -177,9 +177,9 @@ Berlin, Theater am Nollendorffplatz, 10.11. 1927.
 ![](assets/piscator/rasputin-01.jpg){ loading=lazy }
 
 
-### Bandbühne
+### Die Bandbühne 1928
 
-Als Teil seiner Arbeit entwickelte Richter auch eine Bandbühne.
+Anwendung bei der Inszenierung »die Abenteuer des braven Soldaten Schwejk«.
 
 ![Skizze der Bandbühne](assets/piscator/bandbuehne-01.jpg){ loading=lazy }
 

@@ -1,7 +1,28 @@
+
 function Game() {
 	var die1;
 	var die2;
 	var areDiceRolled = false;
+
+	var luck = [
+		[6, 6], // Antonia auf Elektrizitätswerk
+		[3, 6], // Antonia auf Frankreich
+		[6, 5], // Lea auf Sommertheater Küstrin
+		[4, 6], // Irvin auf Besuch
+		[3, 4], // Antonia auf Wasserwerk
+		[4, 6], // Lea auf Parken
+		[3, 3], // Irvin auf Filmfabrik
+		[4, 3], // Irvin auf Handforth Camp
+		[1, 3], // Antonia auf Städtische Bühnen Düsseldorf
+		[2, 6], // Lea auf Piscator Bühnen
+		[5, 3], // Irvin auf Landestheater Darmstadt
+		[2, 1], // Antonia auf Anhalter Bahnhof
+		[3, 2], // Lea auf Theater des Volkes
+		[4, 3], // Irvin ins Gefängnis
+		[1, 1], // Antonia auf Schlossparktheater
+		[3, 3], // Foo
+	];
+	var luck_index = 0;
 
 	var auctionQueue = [];
 	var highestbidder;
@@ -10,8 +31,17 @@ function Game() {
 	var auctionproperty;
 
 	this.rollDice = function() {
-		die1 = Math.floor(Math.random() * 6) + 1;
-		die2 = Math.floor(Math.random() * 6) + 1;
+		console.log(luck.length + " " + luck_index);
+		if (luck.length < luck_index + 1) {
+			console.log("yo");
+			die1 = Math.floor(Math.random() * 6) + 1;
+			die2 = Math.floor(Math.random() * 6) + 1;
+		}
+		else {
+			die1 = luck[luck_index][0];
+			die2 = luck[luck_index][1];
+			luck_index = luck_index + 1;
+		}
 		areDiceRolled = true;
 	};
 
@@ -1196,12 +1226,18 @@ Array.prototype.randomize = function(length) {
 	}
 
 	for (var i = 0; i < length; i++) {
+		this[i] = indexArray[i] + 1;
+	}
+
+	/*
+	for (var i = 0; i < length; i++) {
 		// Generate random number between 0 and indexArray.length - 1.
 		num = Math.floor(Math.random() * indexArray.length);
 		this[i] = indexArray[num] + 1;
 
 		indexArray.splice(num, 1);
 	}
+	*/
 };
 
 // function show(element) {
