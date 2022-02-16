@@ -99,7 +99,7 @@ Während seiner Zeit im Kriegsgefangenen-Theaters in Handforth (England) war Ric
 - 1918, Handforth, Camp Theatre (Kriegsgefangenen-Theater), 30.06., Dreyer: „Die Siebzehnjährigen“, Technische Leitung
 - 1919, Handforth, Camp Theatre (Kriegsgefangenen-Theater), 22.10., Sudermann: „Stein unter Steinen“ (Derniere des Handforth Camp Theatre), Technische Leitung
 
-![](assets/handforth/idealprojekt-03.jpg){ align=left loading=lazy align=left width="47%" }![](assets/handforth/idealprojekt-04.jpg){ align=left loading=lazy align=right width="47%" }
+![](assets/handforth/idealprojekt-03.jpg){ loading=lazy width="47%" }![](assets/handforth/idealprojekt-04.jpg){ loading=lazy width="47%" }
 
 ### Materialien
 
@@ -160,13 +160,22 @@ Theater am Nollendorffplatz und Lessing-Theater, Berlin unter der Direktion Erwi
 - 1927, Berlin, Piscatorbühne, Theater am Nollendorffplatz, 03.09., Toller: „Hoppla, wir leben!“, Technische Leitung
 - 1927, Berlin, Piscatorbühne, Theater am Nollendorffplatz, 10.11., Tolstoj: „Rasputin, die Romanows, der Krieg und das Volk, das gegen sie aufstand“, Technische Leitung
 - 1928, Berlin, Piscatorbühne, Theater am Nollendorffplatz, 23.01., Hašek: „Die Abenteuer des braven Soldaten Schwejk“, Technische Leitung
-- 1928, Berlin, Piscatorbühne, Theater am Nollendorffplatz, 10.04., Lania: „Konjunktur“, Technische Leitung
+- 1928, Berlin, Piscatorbühne, Lessing-Theater, 10.04., Lania: „Konjunktur“, Technische Leitung
 
 ### Beispiel einer Inszenierung: Hoppla wir leben
 
 ![](assets/piscator/hoppla-01.jpg){ loading=lazy }
 ![](assets/piscator/hoppla-02.jpg){ loading=lazy }
 ![](assets/piscator/hoppla-03.jpg){ loading=lazy }
+
+### Bühnenbild von Rasputin die Romanows, der Krieg und das Volk, das gegen sie aufstand
+
+Berlin, Theater am Nollendorffplatz, 10.11. 1927.
+
+![](assets/piscator/rasputin-02.jpg){ loading=lazy }
+![](assets/piscator/rasputin-03.jpg){ loading=lazy }
+![](assets/piscator/rasputin-01.jpg){ loading=lazy }
+
 
 ### Bandbühne
 
@@ -200,7 +209,6 @@ Als Teil seiner Arbeit entwickelte Richter auch eine Bandbühne.
 - [https://www.europeana.eu/en/item/187/item_JMVAOZHZNTW2XIZR4W5CSQ5OYNJSXQ3O](https://www.europeana.eu/en/item/187/item_JMVAOZHZNTW2XIZR4W5CSQ5OYNJSXQ3O)
 - [https://www.gettyimages.de/fotos/erwin-piscator-production](https://www.gettyimages.de/fotos/erwin-piscator-production)
 
-![](assets/piscator/buehnenbild.jpg){ loading=lazy }
 
 
 ## 1928-1929: Barnowsky-Bühnen, Berlin (Dir. Barnowsky) (MP)
@@ -358,8 +366,25 @@ Am 21. Oktober 1943 feierte Richter sein 40 jähriges Berufsjubiläum. Neben ver
 
 ## 1945-1959: Schlosspark-Theater Berlin
 
-Intendant Boleslaw Barlog.
+Intendant Boleslaw Barlog. Auch über diese Zeit berichtet er in [seiner Biographie](https://drive.google.com/file/d/1qwICHtHnyk7GviWN_i4w-53EzOw-fpHo/view?usp=sharing).
 
+### Ausstellung (1952)
+
+Im Jahre 1952 richtete Richter eine Ausstellung zum Thema Bühnentechnik und seine Ideen vom wirtschaftlichen Theater aus.
+
+![](assets/schlosspark/ausstellung-01.jpg){ loading=lazy }
+![](assets/schlosspark/ausstellung-02.jpg){ loading=lazy }
+![](assets/schlosspark/ausstellung-03.jpg){ loading=lazy width="49%" }![](assets/schlosspark/ausstellung-04.jpg){ loading=lazy width="49%" }
+
+Impressionen aus der Ausstellung.
+
+
+### 50 jähriges Bühnenjubiläum (Oktober 1953)
+
+Während seiner Zeit am Schlosspark-Theater konnte Julius Richter sein 50 jähriges Bühnenjubiläum feiern. Bilder aus seiner Biographie zeugen davon.
+
+![](assets/schlosspark/jubi-00.jpg){ loading=lazy width="47.5%" }![](assets/schlosspark/jubi-01.jpg){ loading=lazy width="47.5%" }
+![](assets/schlosspark/jubi-02.jpg){ loading=lazy width="47.5%" }![](assets/schlosspark/jubi-03.jpg){ loading=lazy width="45%" }
 
 ### Inszenierungen
 
