@@ -89,7 +89,7 @@ Direktor Dr. George Altman.
 
 ## 1917-1919: Handforth Camp Theatre
 
-Während seiner Zeit im Kriegsgefangenen-Theaters in Handforth (England) war Richter nicht nur als technischer Leiter des Lagertheaters zuständig, sondern erstellte auch die ersten überlieferten Skizzen und Niederschriften über seine Idee des »Idealtheaters«. Über seine Zeit im Lager berichtet Richter auch [in seiner Biographie](assets/handforth/richter_handforth-camp-theatre.pdf)
+Während seiner Zeit im Kriegsgefangenen-Theaters in Handforth (England) war Richter nicht nur als technischer Leiter des Lagertheaters zuständig, sondern erstellte auch die ersten überlieferten Skizzen und Niederschriften über seine Idee des »Idealtheaters«. Über seine Zeit im Lager berichtet Richter auch [in seiner Biographie](https://drive.google.com/file/d/1ZgdQJR5nYMwM4sinrzcrfH8rtKCEkhOB/view?usp=sharing)
 
 ![](assets/handforth/idealprojekt-02.jpg){ align=right loading=lazy }
 
@@ -103,7 +103,7 @@ Während seiner Zeit im Kriegsgefangenen-Theaters in Handforth (England) war Ric
 
 ### Materialien
 
-[Gesammelte Materialien von uns (Google Drive)](https://drive.google.com/drive/folders/1l4TqvroNs3DHFynM1G7gDEOqYCH0EjTm?usp=sharing)
+[Gesammelte Materialien von uns (Google Drive).](https://drive.google.com/drive/folders/1l4TqvroNs3DHFynM1G7gDEOqYCH0EjTm?usp=sharing)
 
 - [https://www.saechsische.de/plus/das-glueck-der-gefangenschaft-2945095.html](https://www.saechsische.de/plus/das-glueck-der-gefangenschaft-2945095.html)
 - [https://www.zvab.com/Bogenst%C3%A4tter-Welt-hinter-Stacheldraht-Chronik-englischen/17262730025/bd](https://www.zvab.com/Bogenst%C3%A4tter-Welt-hinter-Stacheldraht-Chronik-englischen/17262730025/bd)
@@ -152,12 +152,27 @@ Komödienhaus, Theater in der Saarlandstraße unter der Direktion Barnowsky.
 
 Theater am Nollendorffplatz und Lessing-Theater, Berlin unter der Direktion Erwin Piskator.
 
+![](assets/piscator/poster.jpg){ loading=lazy width=48% }
+![](assets/piscator/programmblaetter.jpg){ loading=lazy width=44.5% }
+
 ### Inszenierungen
 
 - 1927, Berlin, Piscatorbühne, Theater am Nollendorffplatz, 03.09., Toller: „Hoppla, wir leben!“, Technische Leitung
 - 1927, Berlin, Piscatorbühne, Theater am Nollendorffplatz, 10.11., Tolstoj: „Rasputin, die Romanows, der Krieg und das Volk, das gegen sie aufstand“, Technische Leitung
 - 1928, Berlin, Piscatorbühne, Theater am Nollendorffplatz, 23.01., Hašek: „Die Abenteuer des braven Soldaten Schwejk“, Technische Leitung
 - 1928, Berlin, Piscatorbühne, Theater am Nollendorffplatz, 10.04., Lania: „Konjunktur“, Technische Leitung
+
+### Beispiel einer Inszenierung: Hoppla wir leben
+
+![](assets/piscator/hoppla-01.jpg){ loading=lazy }
+![](assets/piscator/hoppla-02.jpg){ loading=lazy }
+![](assets/piscator/hoppla-03.jpg){ loading=lazy }
+
+### Bandbühne
+
+Als Teil seiner Arbeit entwickelte Richter auch eine Bandbühne.
+
+![Skizze der Bandbühne](assets/piscator/bandbuehne-01.jpg){ loading=lazy }
 
 ### Materialien
 
@@ -185,6 +200,8 @@ Theater am Nollendorffplatz und Lessing-Theater, Berlin unter der Direktion Erwi
 - [https://www.europeana.eu/en/item/187/item_JMVAOZHZNTW2XIZR4W5CSQ5OYNJSXQ3O](https://www.europeana.eu/en/item/187/item_JMVAOZHZNTW2XIZR4W5CSQ5OYNJSXQ3O)
 - [https://www.gettyimages.de/fotos/erwin-piscator-production](https://www.gettyimages.de/fotos/erwin-piscator-production)
 
+![](assets/piscator/buehnenbild.jpg){ loading=lazy }
+
 
 ## 1928-1929: Barnowsky-Bühnen, Berlin (Dir. Barnowsky) (MP)
 
@@ -202,6 +219,22 @@ Theater am Nollendorffplatz und Lessing-Theater, Berlin unter der Direktion Erwi
 
 Unter der Intendanz Prof. Carl Ebert (1929 bis 1931), Hartung (1931 bis 1933) und Franz Ehwert (1933 bis 1936).
 
+### Kulturstätte Darmstadt
+
+In seiner Zeit am Landestheater Darmstadt konzipierte Richter eine Kulturstätte, welche er bis ins Detail plante. Exemplarisch sei hier als Beispiel seine Planung des Personalschlüssels und der Straßenbahnlinien zu nennen.
+
+![](assets/darmstadt/kulturstaette-01.jpg){ loading=lazy }
+![](assets/darmstadt/kulturstaette-02.jpg){ loading=lazy width=100%}
+
+Auch in Darmstadt lag ihm die Idee eines wirtschaftlichen Theaters am Herzen. So illustriert er etwa in seiner Biografie ein, aus seiner Sicht unwirtschaftlichen Dekorationstransport:
+
+![](assets/darmstadt/transport.jpg){ loading=lazy }
+
+### Bühnenpläne
+
+![](assets/darmstadt/buehnenplan-01.png){ loading=lazy width=48% }
+![](assets/darmstadt/buehnenplan-02.png){ loading=lazy width=46.2% }
+
 ### Inszenierungen
 
 - 1929, Darmstadt, Hessisches Landestheater, 30.04., Puccini: „Manon Lescaut“, Technische Leitung
@@ -213,6 +246,9 @@ Unter der Intendanz Prof. Carl Ebert (1929 bis 1931), Hartung (1931 bis 1933) un
 - 1929, Darmstadt, Hessisches Landestheater, 03.11., Sherriff: „Die andere Seite“, Technische Leitung
 - 1929, Darmstadt, Hessisches Landestheater, 20.11., Grillparzer: „Weh dem der lügt“, Technische Leitung
 - 1929, Darmstadt, Hessisches Landestheater, 17.12., Rossini: „Angelina“, Technische Leitung
+
+![](assets/darmstadt/licht.png){ loading=lazy }
+
 - 1930, Darmstadt, Hessisches Landestheater, 16.01., Hauptmann: „Florian Geyer“, Technische Leitung
 - 1930, Darmstadt, Hessisches Landestheater, 19.02., Rehfisch: „Die Affäre Dreyfus“, Technische Leitung
 - 1930, Darmstadt, Hessisches Landestheater, 15.03., Shaw: „Kaiser von Amerika“, Technische Leitung
@@ -222,6 +258,9 @@ Unter der Intendanz Prof. Carl Ebert (1929 bis 1931), Hartung (1931 bis 1933) un
 - 1930, Darmstadt, Hessisches Landestheater, 15.06., Kálmán: „Die Herzogin von Chicago“, Technische Leitung
 - 1930, Darmstadt, Hessisches Landestheater, 01.07., Beethoven: „Fidelio“, Technische Leitung
 - 1930, Darmstadt, Hessisches Landestheater, 01.11., Bruckner: „Elisabeth von England“, Technische Leitung
+
+![](assets/darmstadt/entwurf.png){ loading=lazy }
+
 - 1931, Darmstadt, Hessisches Landestheater, 23.05., Kleist: „Penthesilea“, Technische Leitung
 - 1931, Darmstadt, Hessisches Landestheater, o.D., Berg: „Wozzeck“, Technische Leitung
 - 1932, Darmstadt, Hessisches Landestheater, 10.11., Verdi: „Don Carlos“, Technische Leitung
@@ -235,6 +274,8 @@ Unter der Intendanz Prof. Carl Ebert (1929 bis 1931), Hartung (1931 bis 1933) un
 - 1935, Darmstadt, Hessisches Landestheater, 24.10., R. Strauss: „Die Frau ohne Schatten“, Technische Leitung
 
 ### Materialsammlung
+
+[Gesammelte Materialien von uns (Google Drive).](https://drive.google.com/drive/folders/1WI0An4vmmCv486YvMFB-t8EpPDSeuoOl?usp=sharing)
 
 - [https://www.darmstadt-stadtlexikon.de/l/landestheater-hessisches.html](https://www.darmstadt-stadtlexikon.de/l/landestheater-hessisches.html)
 - [https://de.wikipedia.org/wiki/Staatstheater_Darmstadt](https://de.wikipedia.org/wiki/Staatstheater_Darmstadt)
@@ -268,7 +309,17 @@ Unter der Intendanz Bruno Jltz (1936 bis 1937) und Otto Krauss (1937 bis 1939).
 
 ## 1939-1944: Theater des Volkes
 
-Unter der Intendanz von Rudolf Zindler. Früher Großes Schauspielhaus, wurde umbenannt zum Theater des Volkes. Nach zum 2. Weltkrieg wird aus dem Haus der Friedrichstadtpalast
+Unter der Intendanz von Rudolf Zindler. Früher Großes Schauspielhaus, wurde umbenannt zum Theater des Volkes. Nach zum 2. Weltkrieg wird aus dem Haus der Friedrichstadtpalast. Über seine Zeit berichtet Richter auch [in seiner Biographie.](https://drive.google.com/file/d/1QOs62ucAa_OLgqFM8186FTbVYDOQ5gOZ/view?usp=sharing)
+
+![](assets/volkes/theater.jpg)
+
+
+### 40 jähriges Bühnenjubiläum
+
+Am 21. Oktober 1943 feierte Richter sein 40 jähriges Berufsjubiläum. Neben verschiedenen Zuschriften wurden auch mehrere Zeitungsartikel darüber veröffentlicht.
+
+![](assets/volkes/40-01.png){ align=left loading=lazy width="45%" }![](assets/volkes/40-02.png){ align=left loading=lazy width="48.5%" }
+![](assets/volkes/40-03.png)
 
 ### Inszenierungen
 
@@ -283,7 +334,11 @@ Unter der Intendanz von Rudolf Zindler. Früher Großes Schauspielhaus, wurde um
 - 1942, Berlin, Theater des Volkes, 18.12., Hardt-Warden, Köller, Rixner: „Der liebe Augustin“, Technische Leitung
 - 1943, Berlin, Theater des Volkes, 26.05., Kollo, Bredschneider: „Wie einst im Mai“, Technische Leitung
 
+![](assets/volkes/grundriss.png)
+
 ### Materialien
+
+[Gesammelte Materialien von uns (Google Drive).](https://drive.google.com/drive/folders/1mgxIEI8jxJ5Yzos7oYCi5p8hcZzfFL8-?usp=sharing)
 
 - [https://de.wikipedia.org/wiki/Großes_Schauspielhaus](https://de.wikipedia.org/wiki/Gro%C3%9Fes_Schauspielhaus)
 - [https://de.wikipedia.org/wiki/Großes_Schauspielhaus#/media/Datei:F_1605.jpg](https://de.wikipedia.org/wiki/Gro%C3%9Fes_Schauspielhaus#/media/Datei:F_1605.jpg)
@@ -305,6 +360,7 @@ Unter der Intendanz von Rudolf Zindler. Früher Großes Schauspielhaus, wurde um
 
 Intendant Boleslaw Barlog.
 
+
 ### Inszenierungen
 
 - 1945, Berlin, Schlosspark-Theater, 03.11., Goetz: „Hokuspokus“, Bühnentechnik
@@ -320,6 +376,9 @@ Intendant Boleslaw Barlog.
 - 1951, Berlin, Schlosspark-Theater, 12.04., Fry: „Venus im Licht“, Technische Leitung
 - 1951, Berlin, Schlosspark-Theater, 17.09., Fry: „Schlaf der Gefangenen“, Technische Leitung
 
+### Materialien
+
+[Gesammelte Materialien von uns (Google Drive).](https://drive.google.com/drive/folders/1YyD3M0BY4crrY-pTM6h3xPzoA27QgNQ1?usp=sharing)
 
 ## 1948: Entnazifizierung
 
